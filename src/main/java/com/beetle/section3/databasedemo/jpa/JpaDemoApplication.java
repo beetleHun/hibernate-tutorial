@@ -1,6 +1,5 @@
-package com.beetle.section3.databasedemo;
+package com.beetle.section3.databasedemo.jpa;
 
-import com.beetle.section3.databasedemo.jpa.PersonJpaRepository;
 import com.beetle.section3.databasedemo.model.Person;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Date;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class JpaDemoApplication implements CommandLineRunner {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(JpaDemoApplication.class);
